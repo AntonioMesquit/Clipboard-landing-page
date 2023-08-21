@@ -2,3 +2,177 @@
 
 /*font-family: 'Bai Jamjuree', sans-serif;*/
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    height: 5000px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.td{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.logo{
+    margin-bottom: 50px;
+    width: 100px;
+}
+header h1, .text-header h1 ,.text-co h1, .text-top h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+header p , .text-header p , .text-co p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.374);
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.buts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.b1 a, .b2 a{
+ text-decoration: none;
+ color: white;
+ padding: 15px 25px 15px 25px;
+ background-color: #26BAA6;
+ border-radius: 25px;
+ border: 1.4px solid rgba(0, 0, 0, 0.33);
+ border-bottom: 2px solid black;
+}
+.b2 a{
+    background-color: #6174FF;
+}
+.text-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text-header h1{
+    font-size: 34px;
+}
+.text-header p{
+    font-size: 17px;
+}
+.comp-text{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    
+}
+.img-computer{
+    width: 920px;
+}
+.image-computer{
+    margin-right: 100px;
+}
+.text-computer{
+
+}
+.text-computer{
+    padding-top: 40px;
+}
+.f1,.f2{
+    margin-bottom: 80px;
+}
+.f1 h2,.f2 h2,.f3 h2{
+    margin-bottom: 15px;
+    
+}
+.f1 p,.f2 p,.f3 p{
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.374);
+    
+}
+.comp-text{
+    margin-bottom: 150px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.text-top{
+    margin-bottom: 100px;
+}
+.text-top{
+    text-align: center;
+}
+.text-top h1{
+    margin-bottom: 15px;
+}
+.text-top p{
+    color: rgba(0, 0, 0, 0.374);        
+}
+.text-co{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.info-2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.info-1, .info-2, .info-3{
+    text-align: center;
+}
+.image-3{
+    
+    margin-bottom: 30px;
+}
+.info-1 h1, .info-2 h1, .info-3 h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.x{
+    width: 50px;
+}
+.info-1 p , .info-2 p, .info-3 p{
+    color: rgba(0, 0, 0, 0.374);  
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.footer-top{
+    text-align: center;
+}
+.text-fot p{
+    margin-bottom: 40px;
+}
+.ts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
