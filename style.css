@@ -11,7 +11,7 @@
 body{
     font-family: 'Bai Jamjuree', sans-serif;
     width: 100%;
-    height: 5000px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     
@@ -37,10 +37,17 @@ header{
 .logo{
     margin-bottom: 50px;
     width: 100px;
+    margin-top: 100px;
 }
 header h1, .text-header h1 ,.text-co h1, .text-top h1{
     font-size: 40px;
     margin-bottom: 15px;
+}
+header p{
+    width: 500px;
+}
+.text-header p{;
+    
 }
 header p , .text-header p , .text-co p{
     text-align: center;
@@ -56,7 +63,7 @@ header p , .text-header p , .text-co p{
 .b1 a, .b2 a{
  text-decoration: none;
  color: white;
- padding: 15px 25px 15px 25px;
+ padding: 15px 35px 15px 35px;
  background-color: #26BAA6;
  border-radius: 25px;
  border: 1.4px solid rgba(0, 0, 0, 0.33);
@@ -67,7 +74,8 @@ header p , .text-header p , .text-co p{
 }
 .text-header{
     text-align: center;
-    margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 100px;
 }
 .text-header h1{
     font-size: 34px;
@@ -160,7 +168,7 @@ header p , .text-header p , .text-co p{
 .logos{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .footer-top{
     text-align: center;
@@ -174,5 +182,175 @@ header p , .text-header p , .text-co p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
+}
+.ts h1{
+    margin-bottom: 15px;
+}
+.ts p {
+    margin-bottom: 40px;
+}
+footer{
+    background-color: rgb(245, 246, 248);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.total{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    
+}
+.pt1,.pt2{
+    display: flex;
+    flex-direction: column;
+}
+.partes{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.logo-2{
+    width: 80px;
+}
+.pt1 a, .pt2 a, .pt3 a{
+ text-decoration: none;
+ font-weight: 600;
+ color: black;
+ padding-bottom: 20px;
+}
+.pt3{
+    margin-bottom: 55px;
+}
+.list-icons{
+    font-size: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(9, 9, 9, 0.216);
+    border-radius: 30px;
+}
+html{
+    scroll-behavior: smooth;
 }
 
+@media screen and (max-width:1320px){
+    .img-computer,.image-compx{
+        width: 500px;
+    }
+}
+@media screen and (max-width:950px){
+    .comp-text{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-computer{
+        margin-right: 0px;
+    }
+    .logos{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-1{
+        margin-bottom: 60px;
+    }
+    .infos{
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .info-2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .info-1, .info-2{
+        margin-bottom: 70px;
+    }
+    .total{
+        flex-direction: column;
+    }
+    .partes{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:950px){
+    .img-computer,.image-compx{
+        width: 300px;
+    }
+    .logo-2{
+        width: 50px;
+    }
+    .partes{
+        height: 200px;
+        text-align: center;
+    }
+    .total{
+        height: 350px;
+    }
+    footer{
+        height: 350px;
+    }
+    .buts{
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+    }
+    .b1{
+        margin-bottom: 50px;
+    }
+    .header p , .text-header p , .text-co p{
+        font-size: 12px;
+        
+    }
+    .partes{
+        width: 100px;
+    }
+    .b1, .b2{
+        padding: 0px 0px 0px 0px;
+    }
+    .logo{
+        width: 100px;
+    }
+    header p{
+        width: 300px;
+    }
+    .ts h1{
+        text-align: center;
+    }
+    .ts p{
+       text-align: center;
+       font-size: 15px;
+    }
+    .ts{
+        margin-bottom: 100px;
+    }
+    .text-1 p,.text-2 p,.text-3 p{
+        font-size: 14px;
+    }
+    header h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    header p{
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .logo{
+        margin-top: 200px;
+    }
+    .text-header p{
+     font-size: 16px;
+    }
+
+}
