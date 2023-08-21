@@ -261,6 +261,7 @@ html{
     .logos{
         flex-direction: column;
         text-align: center;
+        margin-bottom: 20px;
     }
     .logo-1{
         margin-bottom: 60px;
